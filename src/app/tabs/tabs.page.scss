@@ -1,0 +1,16 @@
+ion-tab-bar{
+    height: 55px;
+
+        ion-tab-button{
+        --color-selected: var(--ion-color-tertiary);
+
+        ion-icon{
+            height: 0.8em;
+        }
+
+        ion-label{
+            font-weight: bolder;
+            font-size: 12px;
+        }
+    }
+}

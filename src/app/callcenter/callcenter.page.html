@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-button color="tertiary" (click)="back()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title color="tertiary" class="lbl-head-title">Call Center</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card class="empty-card">
+    <img src="../../assets/img/center.jpg" class="call-img"/>
+    <ion-label class="lbl-title">We're Happy to Help You!</ion-label>
+    <ion-label class="lbl-subtitle">If you have complain about the product chat me</ion-label>
+    <ion-button shape="round" expand="full" size="large" color="tertiary" routerLink="/chat" class="btn-chat">Chat Me</ion-button>
+  </ion-card>
+
+</ion-content>

@@ -1,0 +1,85 @@
+.card-sale{
+    height: 220px;
+    width: 100%;
+    margin: 0px;
+    border-radius: 0px;
+
+    .img-sale{
+        height: 220px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.lbl-sale{
+    display: block;
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+}
+
+.sale-row{
+    .sale-col{
+        .sale-card{
+            margin: 0px;
+            border-radius: 0px;
+            box-shadow: 0px 0px 4px 0px #ccc;
+            height: 300px;
+            width: 100%;
+  
+            .sale-img{
+              height: 150px;
+              width: 100%;
+              object-fit: cover;
+            }
+            .div-sale-desc{
+              background: #fff;
+              height: 150px;
+              width: 100%;
+              padding: 10px 8px;
+              text-align: left;
+  
+              .lbl-sale-title{
+                display: block;
+                font-size: 11px;
+                font-weight: bold;
+                color: #000;
+              }
+              .lbl-sale-old{
+                display: block;
+                font-size: 11px;
+                color: grey;
+                padding: 2px 0px;
+                text-decoration: line-through;
+              }
+              .lbl-sale-new{
+                display: block;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 1px 0px;
+              }
+              .lbl-sale-rating{
+                display: block;
+                font-size: 11px;
+                color: grey;
+                padding: 1px 0px;
+  
+                .icon-rating{
+                  color: orange;
+                }
+              }
+              .lbl-sale-location{
+                display: block;
+                font-size: 11px;
+                color: grey;
+                padding: 2px 0px;
+              }
+              .lbl-sale-stock{
+                display: block;
+                font-size: 11px;
+                font-weight: bold;
+                color: #000;
+              }
+            }
+        }
+    }
+}

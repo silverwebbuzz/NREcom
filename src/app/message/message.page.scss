@@ -1,0 +1,21 @@
+.empty-card{
+    box-shadow: 0px 0px;
+    top: 40%;
+    transform: translateY(-50%);
+    //position: absolute;
+    
+    .msg-img{
+        height: 150px;
+        width: 150px;
+        margin: 0 auto;
+        border-radius: 50%;
+    }
+    .lbl-title{
+        display: block;
+        font-weight: bold;
+        color: #000;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 25px;
+    }
+}

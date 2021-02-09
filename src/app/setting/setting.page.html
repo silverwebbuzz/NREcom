@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-button color="tertiary" (click)="back()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title color="tertiary" class="lbl-head-title">Setting Account</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="page-setting">
+
+  <ion-list class="list">
+    <ion-item class="item-list">
+      <ion-label class="item-name">Account</ion-label>
+    </ion-item>
+    <ion-item class="item-list">
+      <ion-label class="item-sub-name">Address</ion-label>
+      <ion-icon name="arrow-forward" color="medium"></ion-icon>
+    </ion-item>
+    <ion-item class="item-list">
+      <ion-label class="item-sub-name">Telephone</ion-label>
+      <ion-icon name="arrow-forward" color="medium"></ion-icon>
+    </ion-item>
+    <ion-item lines="none" class="item-list spc-B">
+      <ion-label class="item-sub-name">Email</ion-label>
+      <ion-icon name="arrow-forward" color="medium"></ion-icon>
+    </ion-item>
+    <ion-item class="item-list">
+        <ion-label class="item-name">Setting</ion-label>
+      </ion-item>
+      <ion-item class="item-list">
+        <ion-label class="item-sub-name">Order Notifications</ion-label>
+        <ion-icon name="arrow-forward" color="medium"></ion-icon>
+      </ion-item>
+      <ion-item class="item-list">
+        <ion-label class="item-sub-name">Discount Notifications</ion-label>
+        <ion-icon name="arrow-forward" color="medium"></ion-icon>
+      </ion-item>
+      <ion-item lines="none" class="item-list spc-B">
+        <ion-label class="item-sub-name">Credit Card</ion-label>
+        <ion-icon name="arrow-forward" color="medium"></ion-icon>
+      </ion-item>
+      <ion-item lines="none" class="item-list" (click)="logout()">
+          <ion-label class="item-name">Logout</ion-label>
+        </ion-item>
+  </ion-list>
+
+</ion-content>

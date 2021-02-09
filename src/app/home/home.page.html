@@ -1,0 +1,496 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <!-- <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons> -->
+    <!-- <ion-searchbar placeholder="NReCom" class="search"></ion-searchbar> -->
+    <ion-input placeholder="NR eCom" disabled="true" class="search" routerLink="/search">
+      <ion-icon name="search" color="tertiary" class="search-icon"></ion-icon>
+    </ion-input>
+    <ion-buttons slot="end">
+      <ion-button class="icon-search" routerLink="/message">
+        <ion-icon name="text" size="large" style="color: #fff;"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+        <div class="notify">0</div>
+      <ion-button class="icon-search" routerLink="/notification">
+        <ion-icon name="notifications" size="large" style="color: #fff;"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="page-home">
+
+  <ion-slides pager="true" [options]="slideOptsMain" class="main-slides">
+    <ion-slide class="main-slide">
+      <img src="../../assets/img/home.jpg" class="main-img" />
+    </ion-slide>
+    <ion-slide class="main-slide">
+      <img src="../../assets/img/sea.jpg" class="main-img" />
+    </ion-slide>
+    <ion-slide class="main-slide">
+      <img src="../../assets/img/table.jpg" class="main-img" />
+    </ion-slide>
+    <ion-slide class="main-slide">
+      <img src="../../assets/img/home.jpg" class="main-img" />
+    </ion-slide>
+    <ion-slide class="main-slide">
+      <img src="../../assets/img/sea.jpg" class="main-img" />
+    </ion-slide>
+    <ion-slide class="main-slide">
+      <img src="../../assets/img/table.jpg" class="main-img" />
+    </ion-slide>
+  </ion-slides>
+
+  <ion-label class="lbl-head">Menu</ion-label>
+
+  <ion-row>
+    <ion-col size="3" class="col-cat" routerLink="/splash">
+      <img src="../../assets/img/home.jpg" class="cat-img" />
+      <ion-label class="title">Camera</ion-label>
+    </ion-col>
+    <ion-col size="3" class="col-cat" routerLink="/intro">
+      <img src="../../assets/img/home.jpg" class="cat-img" />
+      <ion-label class="title">Camera</ion-label>
+    </ion-col>
+    <ion-col size="3" class="col-cat">
+      <img src="../../assets/img/home.jpg" class="cat-img" />
+      <ion-label class="title">Camera</ion-label>
+    </ion-col>
+    <ion-col size="3" class="col-cat">
+      <img src="../../assets/img/home.jpg" class="cat-img" />
+      <ion-label class="title">Camera</ion-label>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col size="3" class="col-cat">
+      <img src="../../assets/img/home.jpg" class="cat-img" />
+      <ion-label class="title">Camera</ion-label>
+    </ion-col>
+    <ion-col size="3" class="col-cat">
+      <img src="../../assets/img/home.jpg" class="cat-img" />
+      <ion-label class="title">Camera</ion-label>
+    </ion-col>
+    <ion-col size="3" class="col-cat">
+      <img src="../../assets/img/home.jpg" class="cat-img" />
+      <ion-label class="title">Camera</ion-label>
+    </ion-col>
+    <ion-col size="3" class="col-cat">
+      <img src="../../assets/img/home.jpg" class="cat-img" />
+      <ion-label class="title">Camera</ion-label>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col size="3" class="col-cat">
+      <img src="../../assets/img/home.jpg" class="cat-img" />
+      <ion-label class="title">Camera</ion-label>
+    </ion-col>
+    <ion-col size="3" class="col-cat">
+      <img src="../../assets/img/home.jpg" class="cat-img" />
+      <ion-label class="title">Camera</ion-label>
+    </ion-col>
+    <ion-col size="3" class="col-cat">
+      <img src="../../assets/img/home.jpg" class="cat-img" />
+      <ion-label class="title">Camera</ion-label>
+    </ion-col>
+    <ion-col size="3" class="col-cat">
+      <img src="../../assets/img/home.jpg" class="cat-img" />
+      <ion-label class="title">Camera</ion-label>
+    </ion-col>
+  </ion-row>
+
+  <div class="hr-line"></div>
+
+  <ion-label class="lbl-head">Week Promotion</ion-label>
+
+  <ion-slides [options]="slideOpts" class="slides">
+    <ion-slide class="slide">
+      <img src="../../assets/img/home.jpg" class="img-card" />
+      <ion-label class="lbl-promo">Discount <ion-text>10%</ion-text>
+      </ion-label>
+    </ion-slide>
+    <ion-slide class="slide">
+      <img src="../../assets/img/sea.jpg" class="img-card" />
+      <ion-label class="lbl-promo">Discount <ion-text>10%</ion-text>
+      </ion-label>
+    </ion-slide>
+    <ion-slide class="slide">
+      <img src="../../assets/img/table.jpg" class="img-card" />
+      <ion-label class="lbl-promo">Discount <ion-text>10%</ion-text>
+      </ion-label>
+    </ion-slide>
+    <ion-slide class="slide">
+      <img src="../../assets/img/home.jpg" class="img-card" />
+      <ion-label class="lbl-promo">Discount <ion-text>10%</ion-text>
+      </ion-label>
+    </ion-slide>
+    <ion-slide class="slide">
+      <img src="../../assets/img/sea.jpg" class="img-card" />
+      <ion-label class="lbl-promo">Discount <ion-text>10%</ion-text>
+      </ion-label>
+    </ion-slide>
+    <ion-slide class="slide">
+      <img src="../../assets/img/table.jpg" class="img-card" />
+      <ion-label class="lbl-promo">Discount <ion-text>10%</ion-text>
+      </ion-label>
+    </ion-slide>
+  </ion-slides>
+
+  <div class="div-sale">
+    <ion-slides [options]="slideOptsSale" class="slides-sale">
+      <ion-slide class="slide-sale">
+        <ion-card class="sale-card" routerLink="/sale">
+          <img src="../../assets/img/sale.png" class="basket" />
+          <ion-label class="sale-lbl">Flash</ion-label>
+          <ion-label class="sale-lbl">Sale</ion-label>
+          <ion-label class="sale-end-lbl">End sale in :</ion-label>
+          <ion-label class="sale-time-lbl">23 : 59 : 43</ion-label>
+        </ion-card>
+      </ion-slide>
+      <ion-slide class="slide-sale">
+        <ion-card class="sale-card">
+          <img src="../../assets/img/home.jpg" class="sale-img" />
+          <div class="div-sale-desc">
+            <ion-label class="lbl-sale-title">Apple Macbook Pro with Touch Bar</ion-label>
+            <ion-label class="lbl-sale-old">$ 2,000</ion-label>
+            <ion-label class="lbl-sale-new" color="tertiary">$ 1,300</ion-label>
+            <ion-label class="lbl-sale-rating">
+              <ion-icon name="star" class="icon-rating"></ion-icon>(56)
+            </ion-label>
+            <ion-label class="lbl-sale-location">
+              <ion-icon name="pin"></ion-icon>Ahmedabad
+            </ion-label>
+            <ion-label class="lbl-sale-stock">9 Available</ion-label>
+          </div>
+        </ion-card>
+      </ion-slide>
+      <ion-slide class="slide-sale">
+        <ion-card class="sale-card">
+          <img src="../../assets/img/home.jpg" class="sale-img" />
+          <div class="div-sale-desc">
+            <ion-label class="lbl-sale-title">Apple Macbook Pro with Touch Bar</ion-label>
+            <ion-label class="lbl-sale-old">$ 2,000</ion-label>
+            <ion-label class="lbl-sale-new" color="tertiary">$ 1,300</ion-label>
+            <ion-label class="lbl-sale-rating">
+              <ion-icon name="star" class="icon-rating"></ion-icon>(56)
+            </ion-label>
+            <ion-label class="lbl-sale-location">
+              <ion-icon name="pin"></ion-icon>Ahmedabad
+            </ion-label>
+            <ion-label class="lbl-sale-stock">9 Available</ion-label>
+          </div>
+        </ion-card>
+      </ion-slide>
+      <ion-slide class="slide-sale">
+        <ion-card class="sale-card">
+          <img src="../../assets/img/home.jpg" class="sale-img" />
+          <div class="div-sale-desc">
+            <ion-label class="lbl-sale-title">Apple Macbook Pro with Touch Bar</ion-label>
+            <ion-label class="lbl-sale-old">$ 2,000</ion-label>
+            <ion-label class="lbl-sale-new" color="tertiary">$ 1,300</ion-label>
+            <ion-label class="lbl-sale-rating">
+              <ion-icon name="star" class="icon-rating"></ion-icon>(56)
+            </ion-label>
+            <ion-label class="lbl-sale-location">
+              <ion-icon name="pin"></ion-icon>Ahmedabad
+            </ion-label>
+            <ion-label class="lbl-sale-stock">9 Available</ion-label>
+          </div>
+        </ion-card>
+      </ion-slide>
+      <ion-slide class="slide-sale">
+        <ion-card class="sale-card">
+          <img src="../../assets/img/home.jpg" class="sale-img" />
+          <div class="div-sale-desc">
+            <ion-label class="lbl-sale-title">Apple Macbook Pro with Touch Bar</ion-label>
+            <ion-label class="lbl-sale-old">$ 2,000</ion-label>
+            <ion-label class="lbl-sale-new" color="tertiary">$ 1,300</ion-label>
+            <ion-label class="lbl-sale-rating">
+              <ion-icon name="star" class="icon-rating"></ion-icon>(56)
+            </ion-label>
+            <ion-label class="lbl-sale-location">
+              <ion-icon name="pin"></ion-icon>Ahmedabad
+            </ion-label>
+            <ion-label class="lbl-sale-stock">9 Available</ion-label>
+          </div>
+        </ion-card>
+      </ion-slide>
+      <ion-slide class="slide-sale">
+        <ion-card class="sale-card">
+          <img src="../../assets/img/home.jpg" class="sale-img" />
+          <div class="div-sale-desc">
+            <ion-label class="lbl-sale-title">Apple Macbook Pro with Touch Bar</ion-label>
+            <ion-label class="lbl-sale-old">$ 2,000</ion-label>
+            <ion-label class="lbl-sale-new" color="tertiary">$ 1,300</ion-label>
+            <ion-label class="lbl-sale-rating">
+              <ion-icon name="star" class="icon-rating"></ion-icon>(56)
+            </ion-label>
+            <ion-label class="lbl-sale-location">
+              <ion-icon name="pin"></ion-icon>Ahmedabad
+            </ion-label>
+            <ion-label class="lbl-sale-stock">9 Available</ion-label>
+          </div>
+        </ion-card>
+      </ion-slide>
+      <ion-slide class="slide-sale">
+        <ion-card class="sale-card">
+          <img src="../../assets/img/home.jpg" class="sale-img" />
+          <div class="div-sale-desc">
+            <ion-label class="lbl-sale-title">Apple Macbook Pro with Touch Bar</ion-label>
+            <ion-label class="lbl-sale-old">$ 2,000</ion-label>
+            <ion-label class="lbl-sale-new" color="tertiary">$ 1,300</ion-label>
+            <ion-label class="lbl-sale-rating">
+              <ion-icon name="star" class="icon-rating"></ion-icon>(56)
+            </ion-label>
+            <ion-label class="lbl-sale-location">
+              <ion-icon name="pin"></ion-icon>Ahmedabad
+            </ion-label>
+            <ion-label class="lbl-sale-stock">9 Available</ion-label>
+          </div>
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+  </div>
+
+  <ion-label class="lbl-head">Category</ion-label>
+
+  <ion-slides [options]="slideOptsCat" class="slides-cat">
+    <ion-slide class="slide-cat">
+      <ion-card class="card-cat">
+        <div class="div-rel">
+          <img src="../../assets/img/home.jpg" class="img-trans">
+          <div class="overlay"></div>
+        </div>
+        <ion-label class="cat-title">Cat Title</ion-label>
+      </ion-card>
+    </ion-slide>
+    <ion-slide class="slide-cat">
+      <ion-card class="card-cat">
+        <div class="div-rel">
+          <img src="../../assets/img/home.jpg" class="img-trans">
+          <div class="overlay"></div>
+        </div>
+        <ion-label class="cat-title">Cat Title</ion-label>
+      </ion-card>
+    </ion-slide>
+    <ion-slide class="slide-cat">
+      <ion-card class="card-cat">
+        <div class="div-rel">
+          <img src="../../assets/img/home.jpg" class="img-trans">
+          <div class="overlay"></div>
+        </div>
+        <ion-label class="cat-title">Cat Title</ion-label>
+      </ion-card>
+    </ion-slide>
+    <ion-slide class="slide-cat">
+      <ion-card class="card-cat">
+        <div class="div-rel">
+          <img src="../../assets/img/home.jpg" class="img-trans">
+          <div class="overlay"></div>
+        </div>
+        <ion-label class="cat-title">Cat Title</ion-label>
+      </ion-card>
+    </ion-slide>
+    <ion-slide class="slide-cat">
+      <ion-card class="card-cat">
+        <div class="div-rel">
+          <img src="../../assets/img/home.jpg" class="img-trans">
+          <div class="overlay"></div>
+        </div>
+        <ion-label class="cat-title">Cat Title</ion-label>
+      </ion-card>
+    </ion-slide>
+    <ion-slide class="slide-cat">
+      <ion-card class="card-cat">
+        <div class="div-rel">
+          <img src="../../assets/img/home.jpg" class="img-trans">
+          <div class="overlay"></div>
+        </div>
+        <ion-label class="cat-title">Cat Title</ion-label>
+      </ion-card>
+    </ion-slide>
+    <ion-slide class="slide-cat">
+      <ion-card class="card-cat">
+        <div class="div-rel">
+          <img src="../../assets/img/home.jpg" class="img-trans">
+          <div class="overlay"></div>
+        </div>
+        <ion-label class="cat-title">Cat Title</ion-label>
+      </ion-card>
+    </ion-slide>
+    <ion-slide class="slide-cat">
+      <ion-card class="card-cat">
+        <div class="div-rel">
+          <img src="../../assets/img/home.jpg" class="img-trans">
+          <div class="overlay"></div>
+        </div>
+        <ion-label class="cat-title">Cat Title</ion-label>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+
+  <div class="hr-line"></div>
+
+  <ion-label class="lbl-head">Recomended</ion-label>
+
+  <ion-row class="row-recomend">
+    <ion-col size="6" class="col-recomend">
+      <ion-card class="card-recomend" routerLink="/product-detail">
+        <img src="../../assets/img/home.jpg" class="img-recomend">
+        <ion-label class="lbl-cat-title">Cat Title</ion-label>
+        <ion-label class="lbl-price">$ 10</ion-label>
+        <ion-row class="row-line">
+          <ion-col class="col-line">
+            <ion-label class="lbl-line">
+              4.3
+              <ion-icon name="star" class="rating"></ion-icon>
+            </ion-label>
+          </ion-col>
+          <ion-col class="col-line">
+            <ion-label class="lbl-line-right">892 sale</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-card>
+    </ion-col>
+    <ion-col size="6" class="col-recomend">
+      <ion-card class="card-recomend">
+        <img src="../../assets/img/home.jpg" class="img-recomend">
+        <ion-label class="lbl-cat-title">Cat Title</ion-label>
+        <ion-label class="lbl-price">$ 10</ion-label>
+        <ion-row class="row-line">
+          <ion-col class="col-line">
+            <ion-label class="lbl-line">
+              4.3
+              <ion-icon name="star" class="rating"></ion-icon>
+            </ion-label>
+          </ion-col>
+          <ion-col class="col-line">
+            <ion-label class="lbl-line-right">892 sale</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="row-recomend">
+    <ion-col size="6" class="col-recomend">
+      <ion-card class="card-recomend">
+        <img src="../../assets/img/home.jpg" class="img-recomend">
+        <ion-label class="lbl-cat-title">Cat Title</ion-label>
+        <ion-label class="lbl-price">$ 10</ion-label>
+        <ion-row class="row-line">
+          <ion-col class="col-line">
+            <ion-label class="lbl-line">
+              4.3
+              <ion-icon name="star" class="rating"></ion-icon>
+            </ion-label>
+          </ion-col>
+          <ion-col class="col-line">
+            <ion-label class="lbl-line-right">892 sale</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-card>
+    </ion-col>
+    <ion-col size="6" class="col-recomend">
+      <ion-card class="card-recomend">
+        <img src="../../assets/img/home.jpg" class="img-recomend">
+        <ion-label class="lbl-cat-title">Cat Title</ion-label>
+        <ion-label class="lbl-price">$ 10</ion-label>
+        <ion-row class="row-line">
+          <ion-col class="col-line">
+            <ion-label class="lbl-line">
+              4.3
+              <ion-icon name="star" class="rating"></ion-icon>
+            </ion-label>
+          </ion-col>
+          <ion-col class="col-line">
+            <ion-label class="lbl-line-right">892 sale</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="row-recomend">
+    <ion-col size="6" class="col-recomend">
+      <ion-card class="card-recomend">
+        <img src="../../assets/img/home.jpg" class="img-recomend">
+        <ion-label class="lbl-cat-title">Cat Title</ion-label>
+        <ion-label class="lbl-price">$ 10</ion-label>
+        <ion-row class="row-line">
+          <ion-col class="col-line">
+            <ion-label class="lbl-line">
+              4.3
+              <ion-icon name="star" class="rating"></ion-icon>
+            </ion-label>
+          </ion-col>
+          <ion-col class="col-line">
+            <ion-label class="lbl-line-right">892 sale</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-card>
+    </ion-col>
+    <ion-col size="6" class="col-recomend">
+      <ion-card class="card-recomend">
+        <img src="../../assets/img/home.jpg" class="img-recomend">
+        <ion-label class="lbl-cat-title">Cat Title</ion-label>
+        <ion-label class="lbl-price">$ 10</ion-label>
+        <ion-row class="row-line">
+          <ion-col class="col-line">
+            <ion-label class="lbl-line">
+              4.3
+              <ion-icon name="star" class="rating"></ion-icon>
+            </ion-label>
+          </ion-col>
+          <ion-col class="col-line">
+            <ion-label class="lbl-line-right">892 sale</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+  <ion-row class="row-recomend">
+    <ion-col size="6" class="col-recomend">
+      <ion-card class="card-recomend">
+        <img src="../../assets/img/home.jpg" class="img-recomend">
+        <ion-label class="lbl-cat-title">Cat Title</ion-label>
+        <ion-label class="lbl-price">$ 10</ion-label>
+        <ion-row class="row-line">
+          <ion-col class="col-line">
+            <ion-label class="lbl-line">
+              4.3
+              <ion-icon name="star" class="rating"></ion-icon>
+            </ion-label>
+          </ion-col>
+          <ion-col class="col-line">
+            <ion-label class="lbl-line-right">892 sale</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-card>
+    </ion-col>
+    <ion-col size="6" class="col-recomend">
+      <ion-card class="card-recomend">
+        <img src="../../assets/img/home.jpg" class="img-recomend">
+        <ion-label class="lbl-cat-title">Cat Title</ion-label>
+        <ion-label class="lbl-price">$ 10</ion-label>
+        <ion-row class="row-line">
+          <ion-col class="col-line">
+            <ion-label class="lbl-line">
+              4.3
+              <ion-icon name="star" class="rating"></ion-icon>
+            </ion-label>
+          </ion-col>
+          <ion-col class="col-line">
+            <ion-label class="lbl-line-right">892 sale</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+</ion-content>

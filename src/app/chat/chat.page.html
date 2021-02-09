@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-button color="tertiary" (click)="back()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title color="tertiary" class="lbl-head-title">Chatting</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-card class="empty-card">
+      <img src="../../assets/img/chat.jpg" class="call-img" />
+      <ion-label class="lbl-subtitle">Not Have Message</ion-label>
+    </ion-card>
+
+</ion-content>
+
+<ion-footer class="page-chat-footer">
+    <ion-item lines="none" class="item-footer"> 
+      <ion-button fill="clear" slot="start" class="btns">
+        <ion-icon name="add" color="tertiary" size="large"></ion-icon>
+      </ion-button>
+      <ion-input placeholder="Enter some text to send a message" class="input-box"></ion-input>
+      <ion-button fill="clear" slot="end" class="btns spc">
+          <ion-icon name="mail" color="tertiary" size="large"></ion-icon>
+        </ion-button>
+    </ion-item>
+  </ion-footer>

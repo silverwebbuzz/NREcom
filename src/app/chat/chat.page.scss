@@ -1,0 +1,42 @@
+.empty-card{
+    box-shadow: 0px 0px;
+    top: 30%;
+    transform: translateY(-50%);
+    display: block;
+
+    .call-img{
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+    }
+    .lbl-subtitle{
+        display: block;
+        color: #ccc;
+        text-align: center;
+        font-size: 16px;
+        padding-top: 20px;
+    }
+}
+.spc{
+    padding-left: 5px;
+}
+.page-chat-footer{
+    box-shadow: 0px 0px 4px 0px #ddd;
+
+    .item-footer{
+        --padding-start: 8px;
+        --padding-end: 0px;
+        padding: 5px 0px; 
+        
+        .btns{
+            margin: 0px;
+            --padding-start: 0px;
+            --padding-end: 0px;
+        }
+        .input-box{
+            border: 0.5px solid #ddd;
+            font-size: 16px;
+            --padding-start: 8px;
+        }
+    }
+}

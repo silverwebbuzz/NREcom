@@ -1,0 +1,53 @@
+.page-forgot{
+    .item-logo{
+        padding: 16% 0% 16% 0%;
+        width: 270px;
+        margin: 0 auto;
+        
+        .icon-logo{
+            height: 90px;
+            width: 90px;
+        }
+        .lbl-head{
+            font-size: 32px;
+            font-weight: bold;
+        }
+    }
+
+    .heading{
+        font-size: 14px;
+        font-weight: 600;
+        padding: 25px 16px;
+        display: block;
+    }
+
+    .item-input{
+        --padding-end: 8px;
+
+        .input-lbl{
+            font-weight: bold;
+        }
+        .input-box{
+            background: #f1f1f1;
+            --padding-start: 8px;
+            border-radius: 8px;
+        }
+    }
+    .btns-bottom{
+        margin: 25% 0% 15% 0%;
+
+        .lbl-signup{
+            display: block;
+            text-align: center;
+            font-size: 13px;
+            font-weight: bold;
+            outline: none;
+        }
+        .btn-forgot{
+            width: 75%;
+            margin: auto;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    }
+}

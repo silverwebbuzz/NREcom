@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-button color="tertiary" (click)="back()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title color="tertiary" class="lbl-head-title">Product Detail</ion-title>
+    <ion-buttons slot="end">
+      <div class="notify">0</div>
+      <ion-button class="icon-search" routerLink="/tabs/cart">
+        <ion-icon name="cart" mode="md" size="large" color="tertiary"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="page-details">
+
+  <ion-slides pager="true" [options]="slideOptsMain" class="main-slides">
+    <ion-slide class="main-slide">
+      <img src="../../assets/img/home.jpg" class="main-img" />
+    </ion-slide>
+    <ion-slide class="main-slide">
+      <img src="../../assets/img/sea.jpg" class="main-img" />
+    </ion-slide>
+    <ion-slide class="main-slide">
+      <img src="../../assets/img/table.jpg" class="main-img" />
+    </ion-slide>
+  </ion-slides>
+
+  <ion-label class="lbl-name">Product Title</ion-label>
+  <ion-label class="lbl-price">$200</ion-label>
+
+  <!-- <div class="hr"></div> -->
+
+  <ion-row class="row-star-sales">
+    <ion-col>
+      <ion-badge color="success" class="star">4.2
+        <ion-icon name="star"></ion-icon>
+      </ion-badge>
+    </ion-col>
+    <ion-col>
+      <ion-label class="lbl-sales">892 Sale</ion-label>
+    </ion-col>
+  </ion-row>
+
+  <ion-card class="card-size-clr">
+    <ion-label class="lbl-select">Size</ion-label>
+    <div class="roundShape">S</div>
+    <div class="roundShape">M</div>
+    <div class="roundShape">L</div>
+    <div class="roundShape">XL</div>
+    <div class="hr"></div>
+    <ion-label class="lbl-select">Color</ion-label>
+    <div class="roundShape dark"></div>
+    <div class="roundShape light"></div>
+    <div class="roundShape primary"></div>
+  </ion-card>
+
+  <ion-card class="card-desc">
+    <ion-label class="lbl-desc">Description</ion-label>
+    <ion-label class="desc">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    </ion-label>
+    <ion-label class="lbl-more">View More</ion-label>
+  </ion-card>
+
+</ion-content>

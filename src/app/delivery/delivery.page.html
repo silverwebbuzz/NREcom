@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-button color="tertiary" (click)="back()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title color="tertiary" class="lbl-head-title">Delivery</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding class="page-delivery">
+
+  <ion-label class="lbl-head">Where are your ordered items shipped ?</ion-label>
+
+  <ion-item lines="none" class="item-input">
+    <ion-label position="stacked" class="input-lbl">Pin Code</ion-label>
+    <ion-input type="number" class="input-box"></ion-input>
+  </ion-item>
+
+  <ion-item lines="none" class="item-input">
+    <ion-label position="stacked" class="input-lbl">Locality</ion-label>
+    <ion-input type="text" class="input-box"></ion-input>
+  </ion-item>
+
+  <ion-item lines="none" class="item-input">
+    <ion-label position="stacked" class="input-lbl">City</ion-label>
+    <ion-input type="text" class="input-box"></ion-input>
+  </ion-item>
+
+  <ion-item lines="none" class="item-input">
+    <ion-label position="stacked" class="input-lbl">State</ion-label>
+    <ion-input type="text" class="input-box"></ion-input>
+  </ion-item>
+
+  <ion-button expand="full" shape="round" color="tertiary" class="btn-payment" routerLink="/payment">Go to payment</ion-button>
+
+</ion-content>

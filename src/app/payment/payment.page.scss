@@ -1,0 +1,22 @@
+.items{
+    border-bottom: 1px solid #f1f1f1;
+    margin: 0px 10px;
+
+    .btn-radio{
+        --color-checked: var(--ion-color-tertiary);
+    }
+}
+.img-pay-method{
+    height: 30px;
+    width: 30px;
+}
+.lbl-head{
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    margin: 20px 16px;
+}
+.btn{
+    margin: 28% 12% 0px 12%;
+}

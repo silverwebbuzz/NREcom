@@ -1,0 +1,34 @@
+<ion-content padding class="page-signin">
+
+  <ion-item lines="none" class="item-logo">
+    <ion-icon name="basket" color="tertiary" class="icon-logo"></ion-icon>
+    <ion-label color="tertiary" class="lbl-head">NR ECom</ion-label>
+  </ion-item>
+
+  <ion-item lines="none" class="item-input">
+    <ion-label position="stacked" class="input-lbl">Email or username</ion-label>
+    <ion-input type="text" class="input-box"></ion-input>
+  </ion-item>
+
+  <ion-item lines="none" class="item-input">
+    <ion-label position="stacked" class="input-lbl">Password</ion-label>
+    <ion-input type="password" class="input-box">
+      <ion-icon name="eye-off" color="tertiary" class="icon-eye"></ion-icon>
+    </ion-input>
+  </ion-item>
+
+  <ion-label class="lbl-forgot">I forgot my <ion-text color="tertiary" routerLink="/forgotpass"> Password. </ion-text>
+  </ion-label>
+
+  <div class="btns-bottom">
+
+    <ion-label class="lbl-signup">Don't have an account? <ion-text color="tertiary" routerLink="/signup"> Sign up.
+      </ion-text>
+    </ion-label>
+
+    <ion-button expand="full" shape="round" color="tertiary" class="btn-signin" routerLink="/tabs/home">SIGN IN
+    </ion-button>
+
+  </div>
+
+</ion-content>

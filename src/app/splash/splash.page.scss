@@ -1,0 +1,22 @@
+.img-splash{
+    height: 100%;
+    object-fit: cover;
+}
+.div-lbl{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+
+    .lbl-sm{
+        display: block;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .lbl-bg{
+        display: block;
+        font-size: 44px;
+        font-weight: bold;
+    }
+}

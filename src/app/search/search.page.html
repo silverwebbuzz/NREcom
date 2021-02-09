@@ -1,0 +1,133 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-button color="tertiary" (click)="back()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title color="tertiary" class="lbl-head-title">Search</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-label class="lbl-head">Hello, i am NReCom. What would you like to search ?</ion-label>
+
+  <ion-searchbar placeholder="Find you want" class="search"></ion-searchbar>
+
+  <ion-label class="lbl-divider">Popular Keyword</ion-label>
+
+  <ion-slides [options]="slideOpts" class="slides">
+    <ion-slide class="slide">
+      <ion-chip>Iphone X</ion-chip>
+    </ion-slide>
+    <ion-slide class="slide">
+      <ion-chip>Samsung</ion-chip>
+    </ion-slide>
+    <ion-slide class="slide">
+      <ion-chip>Note 9</ion-chip>
+    </ion-slide>
+    <ion-slide class="slide">
+      <ion-chip>Watch</ion-chip>
+    </ion-slide>
+    <ion-slide class="slide">
+      <ion-chip>Shoes</ion-chip>
+    </ion-slide>
+    <ion-slide class="slide">
+      <ion-chip>Laptops</ion-chip>
+    </ion-slide>
+  </ion-slides>
+
+  <ion-slides [options]="slideOpts" class="slides">
+    <ion-slide class="slide">
+      <ion-chip>Mobiles</ion-chip>
+    </ion-slide>
+    <ion-slide class="slide">
+      <ion-chip>Cloths</ion-chip>
+    </ion-slide>
+    <ion-slide class="slide">
+      <ion-chip>Electronics</ion-chip>
+    </ion-slide>
+    <ion-slide class="slide">
+      <ion-chip>Furnitures</ion-chip>
+    </ion-slide>
+    <ion-slide class="slide">
+      <ion-chip>Shoes</ion-chip>
+    </ion-slide>
+    <ion-slide class="slide">
+      <ion-chip>Laptops</ion-chip>
+    </ion-slide>
+  </ion-slides>
+  
+  <ion-label class="lbl-divider extra-spc">Favorite</ion-label>
+
+  <ion-slides [options]="slideOptsProd" class="slidesProd">
+    <ion-slide class="slideProd">
+      <ion-card class="card-prod">
+      <img src="../../assets/img/home.jpg" class="img-cardProd" />
+      <ion-label class="lbl-title">Shoes</ion-label>
+      <ion-label class="lbl-price">$ 200</ion-label>
+      <ion-label class="lbl-rating">4.8
+        <ion-icon name="star"></ion-icon>
+      923 Sale
+      </ion-label>
+      </ion-card>
+    </ion-slide>
+    <ion-slide class="slideProd">
+        <ion-card class="card-prod">
+            <img src="../../assets/img/sea.jpg" class="img-cardProd" />
+            <ion-label class="lbl-title">Shoes</ion-label>
+            <ion-label class="lbl-price">$ 200</ion-label>
+            <ion-label class="lbl-rating">4.8
+              <ion-icon name="star"></ion-icon>
+            923 Sale
+            </ion-label>
+            </ion-card>
+    </ion-slide>
+    <ion-slide class="slideProd">
+        <ion-card class="card-prod">
+            <img src="../../assets/img/table.jpg" class="img-cardProd" />
+            <ion-label class="lbl-title">Shoes</ion-label>
+            <ion-label class="lbl-price">$ 200</ion-label>
+            <ion-label class="lbl-rating">4.8
+              <ion-icon name="star"></ion-icon>
+            923 Sale
+            </ion-label>
+            </ion-card>
+    </ion-slide>
+    <ion-slide class="slideProd">
+        <ion-card class="card-prod">
+            <img src="../../assets/img/home.jpg" class="img-cardProd" />
+            <ion-label class="lbl-title">Shoes</ion-label>
+            <ion-label class="lbl-price">$ 200</ion-label>
+            <ion-label class="lbl-rating">4.8
+              <ion-icon name="star"></ion-icon>
+            923 Sale
+            </ion-label>
+            </ion-card>
+    </ion-slide>
+    <ion-slide class="slideProd">
+        <ion-card class="card-prod">
+            <img src="../../assets/img/sea.jpg" class="img-cardProd" />
+            <ion-label class="lbl-title">Shoes</ion-label>
+            <ion-label class="lbl-price">$ 200</ion-label>
+            <ion-label class="lbl-rating">4.8
+              <ion-icon name="star"></ion-icon>
+            923 Sale
+            </ion-label>
+            </ion-card>
+    </ion-slide>
+    <ion-slide class="slideProd">
+        <ion-card class="card-prod">
+            <img src="../../assets/img/table.jpg" class="img-cardProd" />
+            <ion-label class="lbl-title">Shoes</ion-label>
+            <ion-label class="lbl-price">$ 200</ion-label>
+            <ion-label class="lbl-rating">4.8
+              <ion-icon name="star"></ion-icon>
+            923 Sale
+            </ion-label>
+            </ion-card>
+    </ion-slide>
+  </ion-slides>
+
+</ion-content>

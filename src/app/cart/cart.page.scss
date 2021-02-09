@@ -1,0 +1,79 @@
+.page-cart{
+    --background: #f1f1f1;
+
+    .card-cart{
+        background: #fff;
+        margin: 5px;
+        border-radius: 0px;
+        box-shadow: 0px 0px 0px 0px;
+
+        .row-cart{
+            .col-cart{
+                .img-cart{
+                    height: 105px;
+                    object-fit: cover;
+                }
+                .lbl-title{
+                    display: block;
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #000;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+                .lbl-desc{
+                    display: block;
+                    font-size: 12px;
+                    color: grey;
+                    padding: 2px 0px;
+                }
+                .lbl-price{
+                    display: block;
+                    font-size: 13px;
+                    color: #000;
+                    padding: 2px 0px;
+                }
+                .div-btn-cart{
+                    margin-top: 10px;
+
+                    .btn-remove{
+                        margin: 0px;
+                        --padding-start: 0px;
+                        --padding-end: 10px;
+                        height: 1.8em;
+                        vertical-align: middle;
+                    }
+                    .lbl-qty{
+                        color: #000;
+                        background: #f1f1f1;
+                        padding: 4px 10px 4px 10px;
+                    }
+                    .btn-add{
+                        margin: 0px;
+                        --padding-start: 10px;
+                        --padding-end: 0px;
+                        height: 1.8em;
+                        vertical-align: middle;
+                    }
+                }
+            }
+        }
+    }
+}
+.page-cart-footer{
+    .row-footer{
+        .col-footer{
+            padding: 0px;
+
+            .lbl-total{
+                display: block;
+                padding: 10px;
+                text-align: center;
+            }
+            .btn-pay{
+                margin: 0px;
+            }
+        }
+    }
+}

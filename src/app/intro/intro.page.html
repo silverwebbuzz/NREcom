@@ -1,0 +1,42 @@
+<ion-content>
+
+  <ion-slides pager="true" [options]="slideOptsMain" (ionSlideWillChange)="slideChanged()" (ionSlideDrag)="slideMoved()">
+    <ion-slide>
+      <div class="diag">
+        <ion-icon name="analytics" color="tertiary" [@bounce]='state' (@bounce.done)="animationDone()"></ion-icon>
+      </div>
+      <div [@bounce]='state'>
+        <h2>track your routine</h2>
+        <p>whether it's sets, reps, weight used, you can track it all with our intuitive interface.</p>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="diag">
+        <ion-icon name="trophy" color="tertiary" [@bounce]='state'></ion-icon>
+      </div>
+      <div [@bounce]='state'>
+        <h2>set personal goals</h2>
+        <p>we're all in the gym for a reason: goals. set goals for diet and fitness.</p>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="diag">
+        <ion-icon name="chatboxes" color="tertiary" [@bounce]='state'></ion-icon>
+      </div>
+      <div [@bounce]='state'>
+        <h2>chat with others</h2>
+        <p>inspire and help each other reach fitness and diet goals.</p>
+      </div>
+    </ion-slide>
+  </ion-slides>
+
+    <ion-row class="row-btns">
+      <ion-col  class="col-btn-skip">
+        <ion-button *ngIf="btnSkipActive" fill="clear" color="tertiary" class="btn-skip" (click)="btnSkip()">SKIP</ion-button>
+      </ion-col>
+      <ion-col class="col-btn-done">
+        <ion-button *ngIf="btnDoneActive" fill="clear" color="tertiary" class="btn-done" (click)="btnDone()">DONE</ion-button>
+      </ion-col>
+    </ion-row>
+
+</ion-content>

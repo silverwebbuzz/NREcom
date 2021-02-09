@@ -1,0 +1,100 @@
+.page-product{
+
+    .card-main{
+        margin: 0px;
+        border-radius: 0px;
+        box-shadow: 0px 0px;
+
+        .img-main{
+            height: 200px;
+        }
+    }
+    .lbl-desc{
+        display: block;
+        padding: 16px;
+        font-size: 14px;
+        color: var(--ion-color-medium-tint);
+    }
+    .item-divider{
+        --padding-start: 0px;
+        --inner-padding-end: 0px;
+        background: #fff;
+        box-shadow: 0px 0px 4px 0px #ccc;
+
+        .row-sticky{
+            width: 100%;
+
+            .col-sticky{
+                padding: 0px;
+                .btn{
+                    margin: 0px;
+                    color: var(--ion-color-dark);
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .border-L{
+        border-left: 0.5px solid #ccc;
+    }
+    .border-R{
+        border-right: 0.5px solid #ccc;
+    }
+
+    .row-recomend{
+        padding: 5px 5px 0px 5px; 
+    
+        .col-recomend{
+          padding: 0px;
+    
+          .card-recomend{
+            margin: 5px;
+            border-radius: 0px;
+            box-shadow: 0px 0px 4px 0px #ccc;
+        
+            .img-recomend{
+              height: 250px;
+              object-fit: cover;
+            }
+            .lbl-cat-title{
+              display: block;
+              font-size: 14px;
+              color: var(--ion-color-medium-shade);
+              padding: 2px 8px;
+            }
+            .lbl-price{
+              display: block;
+              font-size: 13px;
+              color: var(--ion-color-dark);
+              font-weight: bold;
+              padding-left: 8px;
+            }
+            .row-line{
+              padding: 2px 8px;
+    
+              .col-line{
+                padding: 0px;
+    
+                .lbl-line{
+                  display: block;
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--ion-color-medium-tint);
+    
+                  .rating{
+                    color: orange;
+                  }
+                }
+                .lbl-line-right{
+                  display: block;
+                  font-size: 12px;
+                  font-weight: bold;
+                  color: var(--ion-color-medium-tint);
+                  text-align: right;
+                }
+              }
+            }
+          }
+        }
+      }
+}

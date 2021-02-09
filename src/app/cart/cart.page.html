@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title color="tertiary" class="lbl-head-title">cart</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="page-cart">
+
+  <ion-card class="card-cart">
+    <ion-row class="row-cart">
+      <ion-col size="5" class="col-cart">
+        <img src="../../assets/img/shopping6.jpg" class="img-cart" />
+      </ion-col>
+      <ion-col size="7" class="col-cart">
+        <ion-label class="lbl-title">Samsung Galaxy Note 9 8 GB color MirrorBlack</ion-label>
+        <ion-label class="lbl-desc">4GB 64GB</ion-label>
+        <ion-label class="lbl-price">$ 950</ion-label>
+        <div class="div-btn-cart">
+          <ion-button fill="clear" class="btn-remove">
+            <ion-icon name="remove-circle-outline" size="large" color="tertiary"></ion-icon>
+          </ion-button>
+          <ion-label class="lbl-qty">1</ion-label>
+          <ion-button fill="clear" class="btn-add">
+            <ion-icon name="add-circle-outline" size="large" color="tertiary"></ion-icon>
+          </ion-button>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
+</ion-content>
+
+<ion-footer class="page-cart-footer">
+  <ion-row class="row-footer">
+    <ion-col class="col-footer">
+      <ion-label class="lbl-total">Total : $ 950</ion-label>
+    </ion-col>
+    <ion-col class="col-footer">
+      <ion-button expand="full" color="tertiary" class="btn-pay" routerLink="/delivery">Pay</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-footer>

@@ -1,0 +1,47 @@
+.cover-pic{
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+.profile-pic{
+    height: 125px;
+    width: 125px;
+    border-radius: 65px;
+    object-fit: cover;
+    position: absolute;
+    top: 150px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 1;
+    border: 3px solid #fff;
+}
+.lbl-user{
+    display: block;
+    margin-top: 55px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+.btn-edit{
+    width: fit-content;
+    margin: 0 auto;
+    height: 20px;
+    font-size: 18px;
+}
+ion-list{
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+.icon-menu{
+    color: var(--ion-color-tertiary);
+    font-size: 30px;
+    margin-right: 16px;
+}
+.item-name{
+    font-size: 16px;
+}
+.item-list{
+    padding-right: 20px;
+}
